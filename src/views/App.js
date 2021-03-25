@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+import logo from 'assets/logo.svg';
 import './App.css';
+
+console.log('alamaszakala');
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={logo} className="App-logo" alt="logo"/>
+        <p>dupa</p>
         <a
           className="App-link"
           href="https://reactjs.org"
