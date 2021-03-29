@@ -10,9 +10,9 @@
     ],
     "rules": {
         "prettier/prettier": [
-            "error",
-            {
-                "singleQuote": true
+            "warn", {
+                "singleQuote": true,
+                "printWidth": 150
             }
         ]
     },

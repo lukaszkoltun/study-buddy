@@ -1,18 +1,18 @@
 export const users = [
   {
-    name: 'Alan',
+    name: 'Alan AlanAlan',
     attendance: '39%',
     average: '2.3',
   },
   {
-    name: 'Fakir',
+    name: 'Fakir Alan',
     attendance: '30%',
     average: '2.5',
   },
   {
-    name: 'Seba',
+    name: 'SebaAlan Alan',
     attendance: '90%',
-    average: '4.3',
+    average: '3.3',
   },
   {
     name: 'Reksio',
@@ -20,7 +20,7 @@ export const users = [
     average: '4.6',
   },
   {
-    name: 'Bonifacy',
+    name: 'Bonifacy Alan',
     average: '4.6',
   },
 ];
