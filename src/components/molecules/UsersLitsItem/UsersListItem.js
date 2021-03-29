@@ -5,11 +5,13 @@ import Average from '../../atoms/Average/Average';
 import NameAndAttendance from '../../atoms/NameAndAttendance/NameAndAtendance';
 import { Wrapper } from './UsersListItem.styles.js';
 
-const UsersListItem = ({ userData: { average, name, attendance = '0%' } }) => (
+const showIndex = (index) => alert(`This is student ${index + 1}`);
+
+const UsersListItem = ({ index, userData: { average, name, attendance = '0%' } }) => (
   <Wrapper>
     <Average average={average} />
     <NameAndAttendance name={name} attendance={attendance} />
-    <Button />
+    <Button onClick={() => showIndex(index)} />
   </Wrapper>
 );
 
