@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { users } from 'data/users.js';
 import UsersListItem from 'components/molecules/UsersLitsItem/UsersListItem';
 import { Wrapper, StyledList } from './UsersList.styles.js';
@@ -7,8 +6,8 @@ import { Wrapper, StyledList } from './UsersList.styles.js';
 const UserList = () => (
   <Wrapper>
     <StyledList>
-      {users.map((userData) => (
-        <UsersListItem userData={userData} />
+      {users.map((userData, i) => (
+        <UsersListItem index={i} key={userData.name} userData={userData} />
       ))}
     </StyledList>
   </Wrapper>
